@@ -1,1 +1,32 @@
+* {
+box-sizing: border-box;
+margin: 0;
+}
 
+body {
+font-family: "Montserrat", sans-serif;
+font-size: 18px;
+text-align: center;
+margin: 0;
+}
+
+nav {
+    position: fixed;
+    background-color: #ddd;
+    width: 100%;
+}
+
+header {
+    padding: 7% 0;
+}
+
+section {
+    padding: 15px;
+    margin: 20px;
+    background-color: #aaa;
+    min-height: 200px;
+}
+
+footer {
+    background-color: #ccc;
+}
