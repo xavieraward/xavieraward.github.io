@@ -1,89 +1,92 @@
 * {
-box-sizing: border-box;
-}
-
-body {
-font-family: 'Nunito Sans', sans-serif;
-font-size: 18px;
-margin: 0;
-}
-
-nav {
-    position: fixed;
-    background-color: #ddd;
-    width: 100%;
-}
-
-header {
-    padding: 7% 0;
-}
-
-section {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    padding: 15px;
-    margin: 20px;
-    background-color: #aaa;
-    max-height: 500px;
-    width: 50%;
-}
-
-footer {
-    background-color: #ccc;
-}
-
-header {
-    background-color: #bbb;
-    width: 20%;
-}
-.bio {
-background-color: #ddd;
-display: flex; 
-flex-direction: column; 
-justify-content: left;
-width: 20%;
-height: 1000px;
-}
-
-
-.everything {
-    display: flex;
-    flex-direction: row;
-}
-
-@media screen and (max-width: 1190px) {
-
-}
-
-@media screen and (max-width: 768px) {
-body {
-    text-align: center;
+    box-sizing: border-box;
+    }
+    
+    body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
     margin: 0;
     }
     
-    .bio {
-        display: flex;
-        align-self: center;
-        min-width: 90%;
-        height: 200px;
+    nav {
+        position: fixed;
+        background-color: #ddd;
+        width: 100%;
+    }
+    
+    header {
+        padding: 7% 0;
     }
     
     section {
-        padding: 15px;
-        margin: 20px;
-        background-color: #aaa;
-        min-height: 300px;
         display: flex;
-        align-self: center;
-        min-width: 90%;
+        justify-content: center;
+        flex-direction: row;
+        padding: 15px;
+        margin-top: -200px;
+        margin-left: 20px;
+        background-color: #aaa;
+        max-height: 500px;
+        width: 50%;
+    
+    }
+    
+    footer {
+        background-color: #ccc;
+    }
+    
+    header {
+        background-color: #bbb;
+        width: 20%;
+    }
+    .bio {
+    background-color: #ddd;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: left;
+    width: 20%;
+    height: 1000px;
     }
 
-
-
+    
+    
     .everything {
         display: flex;
-        flex-direction: column;
-        height: 100%;
+        flex-direction: row;
     }
-}
+    
+    @media screen and (max-width: 1190px) {
+    
+    }
+    
+    @media screen and (max-width: 768px) {
+    body {
+        text-align: center;
+        margin: 0;
+        }
+        
+        .bio {
+            display: flex;
+            align-self: center;
+            min-width: 90%;
+            height: 200px;
+        }
+        
+        section {
+            padding: 15px;
+            margin: 20px;
+            background-color: #aaa;
+            min-height: 300px;
+            display: flex;
+            align-self: center;
+            min-width: 90%;
+        }
+    
+    
+    
+        .everything {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+    }
